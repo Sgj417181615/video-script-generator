@@ -1,0 +1,22 @@
+# 环境变量
+.env
+
+# 视频文件（太大，不适合git）
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
