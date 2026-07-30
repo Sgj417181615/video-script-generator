@@ -18,7 +18,7 @@ from pathlib import Path
 
 # ===== 配置 =====
 
-SCRIPTS_DIR = Path(__file__).parent / "scripts"
+SCRIPTS_DIR = Path("D:/DatasPath/Knowledge/wiki/MelonAI/已产出")
 ENV_FILE = Path(__file__).parent / ".env"
 DEFAULT_API_BASE = "https://api.deepseek.com/v1"
 DEFAULT_MODEL = "deepseek-chat"
