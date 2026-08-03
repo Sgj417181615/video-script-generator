@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  background: #ffffff; color: #222222;
+  display: flex; flex-direction: column; box-sizing: border-box;
+}
+.content { padding: 22pt 40pt 0 40pt; display: flex; flex-direction: column; box-sizing: border-box; }
+.kicker { font-size: 10pt; color: #0078D4; font-weight: bold; margin: 0 0 5pt 0; }
+h2 { font-size: 22pt; margin: 0 0 6pt 0; font-weight: bold; color: #003366; }
+.bar { width: 56pt; height: 3pt; background: #0078D4; margin: 0 0 14pt 0; }
+.bodyrow { display: flex; gap: 22pt; }
+.facts { flex: 1; }
+.facts ul { margin: 0; padding-left: 16pt; }
+.facts li { font-size: 10.8pt; line-height: 1.5; margin-bottom: 7pt; color: #222222; }
+.panel { width: 302pt; background: #003366; border-radius: 8pt; padding: 12pt 12pt 10pt 12pt; box-sizing: border-box; }
+.panelhead { font-size: 12pt; font-weight: bold; color: #ffffff; margin: 0 0 9pt 0; }
+.grid { display: flex; flex-wrap: wrap; gap: 8pt; }
+.mcard { width: 135pt; background: #0a4173; border-radius: 6pt; padding: 7pt 8pt; box-sizing: border-box; }
+.mv { font-size: 16pt; font-weight: bold; color: #ffffff; margin: 0 0 2pt 0; }
+.ml { font-size: 8.5pt; color: #bfd4ea; margin: 0; line-height: 1.3; }
+</style>
+</head>
+<body>
+  <div class="content">
+    <p class="kicker">TOPIC 02 · OPENAI ASTRA</p>
+    <h2>AI 花 $2000，连破 10 道数学世纪难题</h2>
+    <div class="bar"></div>
+    <div class="bodyrow">
+      <div class="facts">
+        <ul>
+          <li>OpenAI 官方博客首次公开下一代模型 Astra（next major model）内部版本</li>
+          <li>在 10 个长期未决的数学 / 理论计算机科学难题上做出新结果</li>
+          <li>领域：高维几何、编码理论、群论、量子复杂性、格密码学等</li>
+          <li>每个论证用 Lean 4 形式化验证，证书公开在 GitHub</li>
+          <li>发布 249 页手稿合集 + 每个问题的 AI 推理过程旁白</li>
+          <li>官方称全部 token 成本约 2000 美元</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <p class="panelhead">核心数据</p>
+        <div class="grid">
+          <div class="mcard"><p class="mv">10</p><p class="ml">解出的世纪难题</p></div>
+          <div class="mcard"><p class="mv">249页</p><p class="ml">公开手稿</p></div>
+          <div class="mcard"><p class="mv">$2000</p><p class="ml">Token 成本</p></div>
+          <div class="mcard"><p class="mv">Lean 4</p><p class="ml">形式化验证</p></div>
+          <div class="mcard"><p class="mv">10+</p><p class="ml">覆盖数学领域</p></div>
+          <div class="mcard"><p class="mv">首个</p><p class="ml">Astra 内部版本公开</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

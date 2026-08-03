@@ -13,6 +13,9 @@ __pycache__/
 *.pyo
 *.egg-info/
 
+# Node 依赖（PPT生成实验的依赖不入库）
+node_modules/
+
 # 编辑器
 .vscode/
 .idea/
